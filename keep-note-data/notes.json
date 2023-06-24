@@ -1,0 +1,34 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "Sample Note",
+      "content": "This is a sample note added for testing purpose"
+    },
+    {
+      "id": 2,
+      "title": "Practice-exercise: TypeScript",
+      "content": "Solution development progress - exercise 1 solution is ready, exercise 2 solution will be started"
+    },
+    {
+      "id": 3,
+      "title": "Challenge: TypeScript",
+      "content": "Solution developed, need to submit for evaluation"
+    },
+    {
+      "id": 4,
+      "title": "Practice-exercise: TypeScript",
+      "content": "Solution reviewed, refactoring is in progress"
+    },
+    {
+      "id": 5,
+      "title": "Challenge: SPA",
+      "content": "Keep Note app solution development in progress. Header design is completed. Code to display notes is in progress."
+    },
+    {
+      "title": "Java",
+      "content": "Java is a high level programming language",
+      "id": 6
+    }
+  ]
+}

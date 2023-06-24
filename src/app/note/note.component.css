@@ -1,0 +1,34 @@
+button{
+    display: flex;
+    margin-left: 5px;
+}
+
+.icon1 {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 17px;
+}
+.icon2 {
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 17px;
+}
+.icon3 {
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 17px;
+}
+.icon4 {
+    margin-left: 15px;
+    font-size: 17px;
+}
+
+.foot{
+    display: none;    
+}
+.cards:hover + .foot {
+    display: block;
+}
+mat-card {
+    padding: 5px;
+}

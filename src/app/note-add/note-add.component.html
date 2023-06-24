@@ -1,0 +1,23 @@
+<div id="note-input" class="p-2 row">
+    <div class="col-lg-2 cards">
+        <h4>Add New Note</h4>
+
+        <!-- <mat-form-field>
+            <mat-label>Note id</mat-label>
+            <input matInput type="number" required [(ngModel)]="note.id">
+        </mat-form-field> -->
+
+        <mat-form-field>
+            <mat-label>Note Title</mat-label>
+            <input  matInput type="text" required [(ngModel)]="note.title">
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Content</mat-label>
+            <textarea  matInput type="text" required [(ngModel)]="note.content"></textarea>
+        </mat-form-field>
+        <br/>
+
+        <button mat-raised-button color="primary" (click)="addNote()">Save</button>  
+    </div>        
+</div>
